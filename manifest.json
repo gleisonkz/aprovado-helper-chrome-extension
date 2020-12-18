@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Aprovado Helper",
+  "description": "Extensão para cadastro automático no site aprovado",
+  "author": "Gleison de Almeida Ribeiro",
+  "browser_action": {
+    "default_title": "Aprovado Helper",
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus"],
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js; object-src 'self'"
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprovado Helper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Aprovado Helper</h1>
+      <img class="header__image" src="./icon.png" alt="" />
+    </header>
+    <div class="video">
+      <h1>Video Atual</h1>
+      <p class="video__duration">
+        Duração:
+        <span class="value"> </span>
+      </p>
+      <p class="video__title">
+        Título:
+        <span class="value"></span>
+      </p>
+    </div>
+    <form class="form">
+      <input type="text" name="email" placeholder="email" />
+      <input type="password" name="password" placeholder="senha" />
+      <label class="checkbox">
+        <input type="checkbox" tabindex="0" />
+        <span> Continuar conectado </span>
+      </label>
+      <button class="button">Post</button>
+    </form>
+  </body>
+  <script src="./app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+</html>
